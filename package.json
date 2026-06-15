@@ -1,0 +1,15 @@
+{
+    "name": "com.polyphase.system.items.core",
+    "author": "Justin Jaro",
+    "description": "ItemInfo asset + Items Lua global. Authors define icon, mesh, description, tags, category, signals, and per-category effect parameters (heal/ammo/shield/weapon) via the editor inspector. Lua dispatches effects through Items.Apply or routes them to the player inventory based on the asset's autoUse flag.",
+    "version": "1.0.0",
+    "native": {
+        "target": "engine",
+        "sourceDir": "Source",
+        "binaryName": "com.polyphase.system.items.core",
+        "entrySymbol": "PolyphasePlugin_GetDesc",
+        "apiVersion": 4,
+        "resolveMode": "source",
+        "binaries": []
+    }
+}
